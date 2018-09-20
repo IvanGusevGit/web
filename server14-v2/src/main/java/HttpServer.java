@@ -2,7 +2,6 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -161,7 +160,7 @@ class HttpServer {
 
     private Request readRequest(Socket socket) throws IOException {
         InputStream inputStream = socket.getInputStream();
-        return new Request(new String(readInputStream(inputStream, true), StandardCharsets.UTF_8));
+        return new Request(new String(readInputStream(inputStream, true), "utf-8"));
     }
 
     private static final class Request {
@@ -180,7 +179,13 @@ class HttpServer {
             if ("".equals(firstLineTokens[1]) || "/".equals(firstLineTokens[1])) {
                 uri = "/index.html";
             } else {
-                uri = (new URLDecoder()).decode(firstLineTokens[1], StandardCharsets.UTF_8);
+                String decodedUri;
+                try {
+                    decodedUri = URLDecoder.decode(firstLineTokens[1], "utf-8");
+                } catch (UnsupportedEncodingException e) {
+                    decodedUri = "/image.html";
+                }
+                uri = decodedUri;
             }
 
 
@@ -244,3 +249,4 @@ class HttpServer {
         new HttpServer(new File("static"), 8088);
     }
 }
+
