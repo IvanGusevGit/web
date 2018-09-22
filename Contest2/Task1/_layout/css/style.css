@@ -44,6 +44,7 @@ header .enter-or-register-box {
 }
 
 header nav {
+    position: relative;
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     padding: 0.75rem 0.25rem;
@@ -66,6 +67,15 @@ header nav ul li a {
     font-family: "Arial Narrow", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+header nav form input {
+    position: absolute;
+    border-radius: var(--border-radius);
+    top: 0.4rem;
+    right: 0.5rem;
+    padding-left: 1.5rem;
+    background: #f4f4f4 url("./../img/search-16x16.png") no-repeat left;
 }
 
 .middle {
