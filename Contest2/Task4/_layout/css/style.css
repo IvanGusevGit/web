@@ -86,14 +86,14 @@ main {
 main div.login-form-box {
     display: block;
     position: relative;
-    left: 25rem;
-    border: solid var(--border-color);
+    left: 14rem;
+    border: solid 0.1rem var(--border-color);
     border-radius: var(--border-radius);
-    width: 25rem;
+    width: 30rem;
 }
 
 main div.login-form-box div.header {
-    border-bottom: solid var(--border-color);
+    border-bottom: solid 0.1rem var(--border-color);
     padding-left: 0.5rem;
     padding-top: 0.2rem;
     padding-bottom:  0.2rem;
@@ -142,14 +142,46 @@ main div.login-form-box div.body div.checkbox-field {
     position: relative;
     left: 7.5rem;
     font-size: small;
-}
-
-main div.login-form-box div.body div.checkbox-field input {
-    color: darkgrey;
+    height: 2.5rem;
 }
 
 main div.login-form-box div.body div.button-field {
     height: 3rem;
+}
+
+main div.login-form-box div.body div.links {
+    position: relative;
+    width: 30rem;
+    left: -2rem;
+    height: 1rem;
+    border-bottom: solid 0.1rem var(--border-color);
+}
+
+main div.login-form-box div.footer {
+    height: 1rem;
+}
+
+main div.login-form-box div.footer a{
+    position: absolute;
+    font-size: small;
+}
+
+main div.login-form-box div.footer a:nth-child(3) {
+    right: 13rem;
+}
+
+main div.login-form-box div.footer a:nth-child(2) {
+    right: 6rem;
+}
+
+main div.login-form-box div.footer a:nth-child(1) {
+    right: 0;
+}
+
+main div.login-form-box div.body div.links a {
+    position: absolute;
+    right: 0;
+    font-size: small;
 }
 
 main div.login-form-box div.body div.button-field input{
@@ -167,7 +199,7 @@ main div.login-form-box div.body div.field:nth-child(2) div.error {
     font-size: x-small;
     color: red;
     left: 7.5rem;
-    bottom: 0.3rem;
+    bottom: 0.7rem;
 }
 
 footer {
