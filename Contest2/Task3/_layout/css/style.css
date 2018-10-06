@@ -73,6 +73,83 @@ header nav ul li a {
     overflow: auto;
 }
 
+div.middle main article {
+    display: flex;
+    flex-direction: column;
+}
+
+div.middle main article div.title {
+    font-size: x-large;
+    font-weight: bold;
+    color: #3B5998;
+}
+
+div.middle main article div.information {
+    color: #888;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+div.middle main article  div.body {
+    border-left: solid 0.3rem var(--border-color);
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#222;
+}
+
+div.middle main article  div.body p {
+    margin-top: 0;
+}
+
+div.middle main article  div.body p:last-child{
+    margin-bottom: 0;
+}
+
+div.middle main article ul.attachment {
+    padding-left: 1.45rem;
+    margin-bottom: 0.5rem;
+}
+
+div.middle main article ul.attachment li{
+    list-style-image: url("./../img/paperclip-16x16.png");
+    font-size: smaller;
+    color: #888;
+}
+
+div.middle main article div.footer {
+    display: flex;
+    flex-direction: row;
+    border: solid 0.1rem var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.4rem 0.8rem;
+}
+
+div.middle main article div.footer div.left {
+    display: flex;
+    align-items: center;
+}
+
+div.middle main article div.footer div.left span.positive-score {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: green;
+    font-weight: bold;
+}
+
+div.middle main article div.footer div.right {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.middle main article div.footer div.right img{
+    margin-left: 0.8rem;
+    margin-right: 0.3rem;
+}
+
 aside {
     float: right;
     width: 20rem;
@@ -81,70 +158,6 @@ aside {
 main {
     margin-right: 21rem;
 }
-
-main article .title {
-    font-size: x-large;
-    font-weight: bold;
-    color: #3B5998;
-}
-
-main article .information {
-    padding-top: 0.25rem;
-    padding-left: 0.1rem;
-    color: #888;
-    font-size: small;
-}
-
-main article .body {
-    border-left: var(--border-color) 0.3rem solid;
-    padding-left: 1rem;
-    font-family: Verdana, arial, sans-serif;
-}
-
-
-main article .attachment li {
-    list-style-image: url("./../img/paperclip-16x16.png");
-    position: relative;
-    left: -1rem;
-    font-family: Verdana, arial, sans-serif;
-    font-size: smaller;
-    color: #888;
-}
-
-main article div.footer {
-    position: relative;
-    border: solid 0.1rem var(--border-color);
-    border-radius: var(--border-radius);
-    width: 59rem;
-    height: 2rem;
-}
-
-main article div.footer .left {
-    top: 0.2rem;
-    left: 1rem;
-    position: absolute;
-    width: 20rem;
-}
-
-main article div.footer .left img:nth-of-type(2){
-    position: absolute;
-    left: 5rem;
-}
-
-main article div.footer .left .positive-score {
-    left: 1.5rem;
-    font-weight: bold;
-    color: darkgreen;
-    position: absolute;
-}
-
-main article div.footer .right {
-    top: 0.5rem;
-    position: absolute;
-    left: 48rem;
-
-}
-
 
 footer {
     margin-top: 2rem;

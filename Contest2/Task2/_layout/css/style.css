@@ -83,65 +83,37 @@ main {
 }
 
 main div.datatable {
-    font-family: Verdana, arial, sans-serif;
-    width: 58rem;
-}
-
-main div.datatable .caption {
     border: solid 0.1rem var(--border-color);
-    border-bottom: 0;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
-    padding-left: 0.5rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    background-color: #E1E1E1;
-    width: 58rem;
+    width: 100%;
 }
 
 main div.datatable table {
+    width: 100%;
     border-collapse: collapse;
-    display: inline;
-    table-layout: auto;
-    width: 58rem;
 }
 
-main div.datatable table tr td, th {
+main div.datatable div.caption {
+    padding: 0.2rem 0.5rem;
+    background-color: lightgray;
+}
+
+main div.datatable table tr th {
     border: solid 0.1rem var(--border-color);
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+main div.datatable table tr td {
     text-align: center;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-
+    border: solid 0.1rem var(--border-color);
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
-main div.datatable table tr:nth-child(2n) {
+main div.datatable table tr:nth-child(2n) td {
     background-color: #f8f8f8;
-}
-
-main div.datatable table tr th:nth-child(1) {
-    padding: 0.25rem 2rem;
-}
-
-
-
-main div.datatable table tr th:nth-child(2) {
-    padding-left: 11rem;
-    padding-right: 11rem;
-}
-
-main div.datatable table tr, th:nth-child(3) {
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-
-main div.datatable table tr, th:nth-child(4) {
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-main div.datatable table tr, th:nth-child(5) {
-    padding-left: 1.18rem;
-    padding-right: 1.18rem;
 }
 
 footer {
