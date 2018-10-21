@@ -9,17 +9,36 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 
 public class StaticServlet extends HttpServlet {
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String uri = request.getRequestURI();
-        File file = new File(getServletContext().getRealPath("/static" + uri));
-        if (file.isFile()) {
-            response.setContentType(getContentTypeFromName(uri));
-            OutputStream outputStream = response.getOutputStream();
-            Files.copy(file.toPath(), outputStream);
-            outputStream.flush();
+        String[] requestedFiles = uri.split("\\+");
+        for (String currentFileName : requestedFiles) {
+            if (!getFile(currentFileName).isFile()) {
+                response.sendError(HttpServletResponse.SC_NOT_FOUND);
+                return;
+            }
+        }
+        response.setContentType(getContentTypeFromName(requestedFiles[0]));
+        OutputStream responseOutputStream = response.getOutputStream();
+        for (String currentFileName : requestedFiles) {
+            File file = getFile(currentFileName);
+            Files.copy(file.toPath(), responseOutputStream);
+        }
+        responseOutputStream.flush();
+    }
+
+    private File getFile(String uri) {
+        if (uri.charAt(0) != '/') {
+            uri = '/' + uri;
+        }
+        File returnFile = new File(new File(getServletContext().getRealPath("")).getParentFile().getParentFile().getAbsolutePath() + "/src/main/webapp/static" + uri);
+        if (returnFile.isFile()) {
+            return returnFile;
         } else {
-            response.sendError(HttpServletResponse.SC_NOT_FOUND);
+            returnFile = new File(getServletContext().getRealPath("/static" + uri));
+            return returnFile;
         }
     }
 
