@@ -7,13 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25c253bf-bc97-4821-9168-a736ba0b6bca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/captcha_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$ServletOutputStreamWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/MessagesServlet$Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/MessagesServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/classes/ru/itmo/wp/util/ImageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/captcha_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/css/b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/css/g.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/css/r.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/css/test16574623474841.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/comments_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/date_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/gb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/itmo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/itmo_ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/paperclip-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/search-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/votedown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/img/voteup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/js/jquery-1.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.12/webapps/ROOT/static/messages.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,10 +86,12 @@
     <session id="1939735362">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,12 +129,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+            <state relative-caret-position="690">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,18 +149,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/captcha_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/messages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="55" column="65" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="65" />
+            <state relative-caret-position="825">
+              <caret line="55" column="65" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -142,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessagesServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="-451">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -186,9 +208,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="63" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="373" />
+    <option name="y" value="48" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -289,7 +311,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540411662708" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Contest4/fw1/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -541,16 +563,20 @@
       <workItem from="1540130039222" duration="6072000" />
       <workItem from="1540144406564" duration="2698000" />
       <workItem from="1540404499323" duration="7391000" />
+      <workItem from="1540479784323" duration="616000" />
+      <workItem from="1540543405927" duration="705000" />
+      <workItem from="1540544531494" duration="956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16161000" />
+    <option name="totallyTimeSpent" value="18438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="63" width="1400" height="1000" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25701624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20143884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -560,7 +586,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3494253" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32864866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37471265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -597,6 +623,12 @@
           <line>50</line>
           <properties />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -690,20 +722,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/AuthServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessagesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/messages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="55" column="65" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/util/ImageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -726,20 +744,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/captcha_page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/messages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="825">
+          <caret line="55" column="65" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessagesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+        <state relative-caret-position="690">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
