@@ -9,6 +9,7 @@ import ru.itmo.webmail.web.exception.RedirectException;
 import javax.servlet.http.HttpServletRequest;
 
 public class AddNewsPage extends Page {
+
     public void action(HttpServletRequest request) throws RedirectException {
         User user = (User) request.getSession().getAttribute("user");
         if (user == null) {

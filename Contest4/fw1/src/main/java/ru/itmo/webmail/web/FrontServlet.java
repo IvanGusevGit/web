@@ -152,15 +152,26 @@ public class FrontServlet extends HttpServlet {
         return null;
     }
 
+    boolean checkParameters(Class<?>[] parameters, Object[] actualArguments) {
+        if (parameters.length != actualArguments.length) {
+            return false;
+        } else {
+            for (int i = 0; i < parameters.length; i++) {
+                if (actualArguments[i].getClass().isInstance(parameters[i])) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
     private void invokeAction(Object page, HttpServletRequest request, Map<String, Object> view, Method method) throws IllegalAccessException, InvocationTargetException{
         method.setAccessible(true);
         Object[][] possibleArguments = new Object[][]{{}, {request}, {view}, {request, view}};
         for (var currentArgumentsCombination : possibleArguments) {
-            try {
+            Class<?>[] methodParameters = method.getParameterTypes();
+            if (checkParameters(methodParameters, currentArgumentsCombination)) {
                 method.invoke(page, currentArgumentsCombination);
-                return;
-            } catch (IllegalArgumentException e) {
-                //ignore
             }
         }
 
