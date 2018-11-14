@@ -14,8 +14,11 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 - jps
 - freemarker
 - jpa - interface for to standard work with databases
+- MySQL
+- DevTools
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxOTE5ODI1LDE5MzU3ODE4MDMsLTE2Mz
-Q4NDY5NjAsNDE5Njk4NDAwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3ODgwMzE1MzUsMzYxOTE5ODI1LDE5Mz
+U3ODE4MDMsLTE2MzQ4NDY5NjAsNDE5Njk4NDAwLC0yMDg4NzQ2
+NjEyXX0=
 -->
