@@ -9,8 +9,13 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 
 - spring boot (spring.io)
 - start.spring.io - project initializer
+
+## Dependencies
+- jps
+- freemarker
+- jpa - interface for to standard work with databases
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk3ODExNjUsMTkzNTc4MTgwMywtMT
-YzNDg0Njk2MCw0MTk2OTg0MDAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzYxOTE5ODI1LDE5MzU3ODE4MDMsLTE2Mz
+Q4NDY5NjAsNDE5Njk4NDAwLC0yMDg4NzQ2NjEyXX0=
 -->
