@@ -22,14 +22,16 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 ```
 @Controller
 public class IndexPage {
-	@GetMapping(path = "")
+	@GetMapping(path = "") result will be put in sort of path
 	public String main() {
-		return "INDEX
+		return "IndexPage"; //returns rendrering to index page
 	}
 }
 ```
+
+Url automatically parse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM3Njc1MjYsLTE3ODgwMzE1MzUsMz
-YxOTE5ODI1LDE5MzU3ODE4MDMsLTE2MzQ4NDY5NjAsNDE5Njk4
-NDAwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTI4NzE1Mjg0NiwtMTc4ODAzMTUzNSwzNj
+E5MTk4MjUsMTkzNTc4MTgwMywtMTYzNDg0Njk2MCw0MTk2OTg0
+MDAsLTIwODg3NDY2MTJdfQ==
 -->
