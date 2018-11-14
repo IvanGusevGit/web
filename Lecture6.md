@@ -17,9 +17,9 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 - MySQL
 - DevTools
 
-`@
+`@Controller` - create only one instance. Lifetime is controlled by spring. It is makd as component which gets requests
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTQ0NzYzNCwtMTc4ODAzMTUzNSwzNj
-E5MTk4MjUsMTkzNTc4MTgwMywtMTYzNDg0Njk2MCw0MTk2OTg0
-MDAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNTYxODQyOTMwLC0xNzg4MDMxNTM1LDM2MT
+kxOTgyNSwxOTM1NzgxODAzLC0xNjM0ODQ2OTYwLDQxOTY5ODQw
+MCwtMjA4ODc0NjYxMl19
 -->
