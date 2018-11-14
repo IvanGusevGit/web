@@ -8,8 +8,9 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 ## Useful links
 
 - spring boot (spring.io)
-- start.spring.io - project init
+- start.spring.io - project initializer
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NDk0NTM4LDE5MzU3ODE4MDMsLTE2Mz
-Q4NDY5NjAsNDE5Njk4NDAwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTExNTk3ODExNjUsMTkzNTc4MTgwMywtMT
+YzNDg0Njk2MCw0MTk2OTg0MDAsLTIwODg3NDY2MTJdfQ==
 -->
