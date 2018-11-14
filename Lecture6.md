@@ -16,9 +16,10 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 - jpa - interface for to standard work with databases
 - MySQL
 - DevTools
-- 
+
+`@
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODgwMzE1MzUsMzYxOTE5ODI1LDE5Mz
-U3ODE4MDMsLTE2MzQ4NDY5NjAsNDE5Njk4NDAwLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMTg5MTQ0NzYzNCwtMTc4ODAzMTUzNSwzNj
+E5MTk4MjUsMTkzNTc4MTgwMywtMTYzNDg0Njk2MCw0MTk2OTg0
+MDAsLTIwODg3NDY2MTJdfQ==
 -->
