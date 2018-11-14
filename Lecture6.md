@@ -17,9 +17,19 @@ Spring controls the lifetime of huge amount functional objects. As a result we w
 - MySQL
 - DevTools
 
-`@Controller` - create only one instance. Lifetime is controlled by spring. It is makd as component which gets requests
+`@Controller` - create only one instance. Lifetime is controlled by spring. It is marked as component which contains methods and actions.
+
+```
+@Controller
+public class IndexPage {
+	@GetMapping(path = "")
+	public String main() {
+		return "INDEX
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxODQyOTMwLC0xNzg4MDMxNTM1LDM2MT
-kxOTgyNSwxOTM1NzgxODAzLC0xNjM0ODQ2OTYwLDQxOTY5ODQw
-MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExMDM3Njc1MjYsLTE3ODgwMzE1MzUsMz
+YxOTE5ODI1LDE5MzU3ODE4MDMsLTE2MzQ4NDY5NjAsNDE5Njk4
+NDAwLC0yMDg4NzQ2NjEyXX0=
 -->
