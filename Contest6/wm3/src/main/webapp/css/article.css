@@ -1,0 +1,77 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles div.title {
+    font-size: x-large;
+    font-weight: bold;
+    color: #3B5998;
+}
+
+.articles div.information {
+    color: #888;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.articles  div.body {
+    border-left: solid 0.3rem var(--border-color);
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#222;
+}
+
+.articles  div.body p {
+    margin-top: 0;
+}
+
+.articles  div.body p:last-child{
+    margin-bottom: 0;
+}
+
+.articles ul.attachment {
+    padding-left: 1.45rem;
+    margin-bottom: 0.5rem;
+}
+
+.articles ul.attachment li{
+    list-style-image: url("./../img/paperclip-16x16.png");
+    font-size: smaller;
+    color: #888;
+}
+
+.articles div.footer {
+    display: flex;
+    flex-direction: row;
+    border: solid 0.1rem var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.4rem 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.articles div.footer div.left {
+    display: flex;
+    align-items: center;
+}
+
+.articles div.footer div.left span.positive-score {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: green;
+    font-weight: bold;
+}
+
+.articles div.footer div.right {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.articles div.footer div.right img{
+    margin-left: 0.8rem;
+    margin-right: 0.3rem;
+}

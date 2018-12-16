@@ -1,0 +1,38 @@
+.creation {
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.creation .mainHeader {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.creation .field {
+    margin-bottom: 1rem;
+}
+
+.creation .field .header {
+    font-size: 1.5rem;
+}
+
+.creation .field .value input{
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.creation .field .value textarea{
+    width: 100%;
+    border-radius: var(--border-radius);
+    min-height: 5rem;
+}
+
+.creation .submit-button {
+    border-radius: var(--border-radius);
+}
+
+.creation .error {
+    margin-top: 1rem;
+    font-size: small;
+    color: red;
+}
